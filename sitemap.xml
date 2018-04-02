@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tonyao.top/2018/04/02/tesseract/</loc>
+    
+    <lastmod>2018-04-02T14:09:33.742Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://tonyao.top/2018/04/02/hexo-1/</loc>
     
     <lastmod>2018-04-02T14:05:23.821Z</lastmod>
@@ -16,14 +23,14 @@
   </url>
   
   <url>
-    <loc>http://tonyao.top/tags/index.html</loc>
+    <loc>http://tonyao.top/categories/index.html</loc>
     
     <lastmod>2018-03-31T07:37:25.775Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://tonyao.top/categories/index.html</loc>
+    <loc>http://tonyao.top/tags/index.html</loc>
     
     <lastmod>2018-03-31T07:37:25.775Z</lastmod>
     
