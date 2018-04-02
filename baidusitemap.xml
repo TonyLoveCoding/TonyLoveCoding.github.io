@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://tonyao.top/2018/04/02/tesseract/</loc>
+    <lastmod>2018-04-02T15:18:21.369Z</lastmod>
+    <data>
+        <display>
+        <title>利用tesseract训练数据集来识别图片文本</title>
+        <pubTime>2018-04-02T14:08:49.000Z</pubTime>
+        
+        <tag>tesseract</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习记录" url="http://tonyao.top/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tonyao.top/2018/04/02/blog-desciption/</loc>
-    <lastmod>2018-04-02T14:38:37.846Z</lastmod>
+    <lastmod>2018-04-02T14:50:49.278Z</lastmod>
     <data>
         <display>
         <title>关于本站</title>
@@ -25,7 +45,7 @@
     
   <url>
     <loc>http://tonyao.top/2018/04/02/hexo-1/</loc>
-    <lastmod>2018-04-02T14:38:27.581Z</lastmod>
+    <lastmod>2018-04-02T14:49:25.212Z</lastmod>
     <data>
         <display>
         <title>Hexo系列（一）搭建Hexo博客</title>
@@ -42,21 +62,4 @@
     </data>
     </url>
 
-    
-  <url>
-    <loc>http://tonyao.top/2018/04/02/tesseract/</loc>
-    <lastmod>2018-04-02T14:09:33.742Z</lastmod>
-    <data>
-        <display>
-        <title>利用tesseract训练数据集来识别图片文本</title>
-        <pubTime>2018-04-02T14:08:49.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
 </urlset>
