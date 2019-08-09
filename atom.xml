@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tonyao.top/"/>
-  <updated>2019-08-08T17:32:53.547Z</updated>
+  <updated>2019-08-09T14:30:19.523Z</updated>
   <id>http://tonyao.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo系列（二）使用Markdown写hexo博文</title>
+    <link href="http://tonyao.top/2019/08/09/hexo-Markdown-grammar/"/>
+    <id>http://tonyao.top/2019/08/09/hexo-Markdown-grammar/</id>
+    <published>2019-08-09T13:30:56.000Z</published>
+    <updated>2019-08-09T14:30:19.523Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="0、Markdown是什么"><a href="#0、Markdown是什么" class="headerlink" title="0、Markdown是什么"></a>0、Markdown是什么</h2><p>Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。也就是说当你熟练了之后就能不靠鼠标为博文设置行文格式，并且Markdown在许多博客得到支持，即<strong>“一次编写，到处展示”</strong>。</p><p>Markdown语法编辑器推荐使用<strong>Typora</strong>（即时展示效果，包括图片和流程图）、<strong>MarkdownPad2</strong>（分屏展示工作区和预览区）；</p><p>以下是Markdown常用的语法，更多细节可以看<a href="http://www.markdown.cn/&quot;Markdown官方文档&quot;" target="_blank" rel="noopener">Markdown官方文档</a>。</p><h2 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h2><pre><code># 一级标题 （请注意，末尾的#后面都有空格）## 二级标题### 三级标题#### 四级标题##### 五级标题</code></pre><p>效果如下：</p><p><img src="/img/hexo_2_1.png&quot;标题示例图&quot;" alt="标题示例"></p><h2 id="2、字体样式"><a href="#2、字体样式" class="headerlink" title="2、字体样式"></a>2、字体样式</h2><pre><code>**加粗***倾斜****斜体加粗***~~删除线~~</code></pre><p>示例：</p><p><strong>加粗</strong></p><p><em>倾斜</em></p><p><strong><em>斜体加粗</em></strong></p><p><del>删除线</del></p><h2 id="3、引用"><a href="#3、引用" class="headerlink" title="3、引用"></a>3、引用</h2><pre><code>&gt;一级引用&gt;&gt;二级引用&gt;&gt;&gt;三级引用</code></pre><p>示例：</p><blockquote><p>一级引用</p><blockquote><p>二级引用</p><blockquote><p>三级引用</p></blockquote></blockquote></blockquote><h2 id="4、分割线"><a href="#4、分割线" class="headerlink" title="4、分割线"></a>4、分割线</h2><pre><code>-------********</code></pre><p>示例：（效果都一样）</p><hr><hr><hr><hr><h2 id="5、图片"><a href="#5、图片" class="headerlink" title="5、图片"></a>5、图片</h2><pre><code>![图片文字]（图片地址 “图片标题”)</code></pre><p>图片标题是可选的，用双引号包括。</p><p>示例：</p><p><img src="http://www.tonyyao.top/img/avatar.jpg&quot; 图片标题&quot;" alt="个人头像"></p><h2 id="6、超链接"><a href="#6、超链接" class="headerlink" title="6、超链接"></a>6、超链接</h2><pre><code>[超链接名字]（超链接地址 “超链接title&quot;)&lt;a href=&quot;超链接地址&quot; target=&quot;_blank&quot;&gt;超链接名&lt;/a&gt;</code></pre><p><a href="http://www.tonyyao.top" title="Tony个人博客" target="_blank" rel="noopener">Tony个人博客</a></p><p><a href="http://www.baidu.com" target="_blank">百度</a></p><h2 id="7、列表"><a href="#7、列表" class="headerlink" title="7、列表"></a>7、列表</h2><p><strong>同级无序列表：</strong></p><pre><code>- 无序列表+ 无序列表* 无序列表</code></pre><ul><li>无序列表</li></ul><ul><li>无序列表</li></ul><ul><li>无序列表</li></ul><p><strong>同级有序列表：</strong></p><pre><code>1. 有序列表2. 有序列表3. 有序列表</code></pre><ol><li>有序列表</li><li>有序列表</li><li>有序列表</li></ol><p><strong>多级无序列表：</strong></p><pre><code>- 一级无序列表   + 二级无序列表   - 二级无序列表   * 二级无序列表        + 三级无序列表- 一级无序列表   * 二级无序列表</code></pre><ul><li>一级无序列表<ul><li>二级无序列表</li></ul><ul><li>二级无序列表</li></ul><ul><li>二级无序列表<ul><li>三级无序列表</li></ul></li></ul></li><li>一级无序列表<ul><li>二级无序列表</li></ul></li></ul><p><strong>多级有序无序列表：</strong></p><pre><code>1. 一级有序列表   + 二级无序列表   - 二级无序列表   * 二级无序列表2. 一级有序列表   1. 二级有序列表   2. 二级有序列表   3. 三级有序列表</code></pre><ol><li>一级有序列表<ul><li>二级无序列表</li></ul><ul><li>二级无序列表</li></ul><ul><li>二级无序列表</li></ul></li><li>一级有序列表<ol><li>二级有序列表</li><li>二级有序列表</li><li>三级有序列表</li></ol></li></ol><h2 id="8、表格"><a href="#8、表格" class="headerlink" title="8、表格"></a>8、表格</h2><pre><code>表头|表头|表头---|:--:|---:内容|内容|内容内容|内容|内容第二行分割表头和内容。- 有一个就行，为了对齐，多加了几个文字默认居左-两边加：表示文字居中-右边加：表示文字居右注：原生的语法两边都要用 | 包起来。此处省略</code></pre><p>示例：</p><table><thead><tr><th>表头</th><th style="text-align:center">表头</th><th style="text-align:right">表头</th></tr></thead><tbody><tr><td>内容</td><td style="text-align:center">内容</td><td style="text-align:right">内容</td></tr><tr><td>内容</td><td style="text-align:center">内容</td><td style="text-align:right">内容</td></tr></tbody></table><h2 id="9、代码"><a href="#9、代码" class="headerlink" title="9、代码"></a>9、代码</h2><pre><code>`代码内容`    代码内容    代码内容（一个缩进，或者四个空格）</code></pre><p><img src="/img/hexo_2_2.png&quot;代码块&quot;" alt="代码块"></p><p>示例：（第二种格式需要加括号防止转义，使用时去掉括号,这个符号是Esc键下面的键）</p><p><code>代码内容</code></p><pre><code>代码内容代码内容</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">代码内容</span><br><span class="line">代码内容</span><br></pre></td></tr></table></figure><h2 id="10、引用"><a href="#10、引用" class="headerlink" title="10、引用"></a>10、引用</h2><pre><code>&gt;引用文字</code></pre><p>示例：</p><blockquote><p>引用文字</p></blockquote><h2 id="11、流程图"><a href="#11、流程图" class="headerlink" title="11、流程图"></a>11、流程图</h2><pre><code>&lt;div id=&quot;flowchart-0&quot; class=&quot;flow-chart&quot;&gt;&lt;/div&gt;</code></pre><p>hexo默认不支持流程图，需要执行命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-filter-flowchart</span><br></pre></td></tr></table></figure><p>示例:</p><div id="flowchart-1" class="flow-chart"></div><p>以上就是Markdown常用语法，多熟悉语法才能体会到它的便捷。</p><h2 id="本文参考"><a href="#本文参考" class="headerlink" title="本文参考"></a>本文参考</h2><blockquote><p><a href="https://www.jianshu.com/p/191d1e21f7ed&quot;Markdown基本语法&quot;" target="_blank" rel="noopener">Markdown基本语法</a></p><p><a href="http://www.markdown.cn&quot;Markdown中文文档&quot;" target="_blank" rel="noopener">Markdown中文文档</a><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">    st=>start: Start    op=>operation: Your Operation    cond=>condition: Yes or No?    e=>end    st->op->cond    cond(yes)->e    cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=>start: Startop=>operation: Your Operationcond=>condition: Yes or No?e=>endst->op->condcond(yes)->econd(no)->op</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;0、Markdown是什么&quot;&gt;&lt;a href=&quot;#0、Markdown是什么&quot; class=&quot;headerlink&quot; title=&quot;0、Markdown是什么&quot;&gt;&lt;/a&gt;0、Markdown是什么&lt;/h2&gt;&lt;p&gt;Markdown是一种纯文本格式的标记语言。通过简单
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="http://tonyao.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="hexo" scheme="http://tonyao.top/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>利用tesseract训练数据集来识别图片文本</title>
