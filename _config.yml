@@ -78,4 +78,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: master
+  type: git
+  repo:
+      github: git@github.com:TonyLoveCoding/TonyLoveCoding.github.io.git,master
+      coding: git@git.coding.net:CoderTonyYao/CoderTonyYao.git,master
