@@ -5,15 +5,20 @@
   
 
   
-  <title>Hexo</title>
+  <title>Lombok入门教程 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="0、Lombok是什么Lombok项目是一个自动继承到代码编辑器以及编译工具的Java类库，让你的Java项目更有意思。通过添加注解，我们就不用再编写get/setter方法、equals方法、toString方法，甚至流式编程的builder模式也能自动生成，以及自动生成日志变量log等等。 1、安装使用以IntelliJ IDEA为例：  点击”File” -&amp;gt; “Settings” -">
+<meta name="keywords" content="Lombok,java">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Lombok入门教程">
+<meta property="og:url" content="http://yoursite.com/2019/08/12/lombok/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="0、Lombok是什么Lombok项目是一个自动继承到代码编辑器以及编译工具的Java类库，让你的Java项目更有意思。通过添加注解，我们就不用再编写get/setter方法、equals方法、toString方法，甚至流式编程的builder模式也能自动生成，以及自动生成日志变量log等等。 1、安装使用以IntelliJ IDEA为例：  点击”File” -&amp;gt; “Settings” -">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-08-12T15:10:22.085Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Lombok入门教程">
+<meta name="twitter:description" content="0、Lombok是什么Lombok项目是一个自动继承到代码编辑器以及编译工具的Java类库，让你的Java项目更有意思。通过添加注解，我们就不用再编写get/setter方法、equals方法、toString方法，甚至流式编程的builder模式也能自动生成，以及自动生成日志变量log等等。 1、安装使用以IntelliJ IDEA为例：  点击”File” -&amp;gt; “Settings” -">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -60,9 +65,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-lombok" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-lombok" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/08/12/lombok/" class="article-date">
   <time datetime="2019-08-12T15:08:26.000Z" itemprop="datePublished">2019-08-12</time>
@@ -79,8 +82,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/08/12/lombok/">Lombok入门教程</a>
+    <h1 class="article-title" itemprop="name">
+      Lombok入门教程
     </h1>
   
 
@@ -172,423 +175,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hexo-Markdown-grammar" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/08/09/hexo-Markdown-grammar/" class="article-date">
-  <time datetime="2019-08-09T13:30:56.000Z" itemprop="datePublished">2019-08-09</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/教程/">教程</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/08/09/hexo-Markdown-grammar/">Hexo系列（二）使用Markdown写hexo博文</a>
-    </h1>
+    <a href="/2019/08/09/hexo-Markdown-grammar/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hexo系列（二）使用Markdown写hexo博文</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="0、Markdown是什么"><a href="#0、Markdown是什么" class="headerlink" title="0、Markdown是什么"></a>0、Markdown是什么</h2><p>Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。也就是说当你熟练了之后就能不靠鼠标为博文设置行文格式，并且Markdown在许多博客得到支持，即<strong>“一次编写，到处展示”</strong>。</p>
-<p>Markdown语法编辑器推荐使用<strong>Typora</strong>（即时展示效果，包括图片和流程图）、<strong>MarkdownPad2</strong>（分屏展示工作区和预览区）；</p>
-<p>以下是Markdown常用的语法，更多细节可以看<a href="http://www.markdown.cn/" markdown官方文档"" target="_blank" rel="noopener">Markdown官方文档</a>。</p>
-<h2 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h2><pre><code># 一级标题 （请注意，末尾的#后面都有空格）
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题</code></pre><p>效果如下：</p>
-<p><img src="/img/hexo_2_1.png" alt="标题示例" title="标题示例图"></p>
-<h2 id="2、字体样式"><a href="#2、字体样式" class="headerlink" title="2、字体样式"></a>2、字体样式</h2><pre><code>**加粗**
-*倾斜*
-***斜体加粗***
-~~删除线~~</code></pre><p>示例：</p>
-<p><strong>加粗</strong></p>
-<p><em>倾斜</em></p>
-<p><strong><em>斜体加粗</em></strong></p>
-<p><del>删除线</del></p>
-<h2 id="3、引用"><a href="#3、引用" class="headerlink" title="3、引用"></a>3、引用</h2><pre><code>&gt;一级引用
-&gt;&gt;二级引用
-&gt;&gt;&gt;三级引用</code></pre><p>示例：</p>
-<blockquote>
-<p>一级引用</p>
-<blockquote>
-<p>二级引用</p>
-<blockquote>
-<p>三级引用</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="4、分割线"><a href="#4、分割线" class="headerlink" title="4、分割线"></a>4、分割线</h2><pre><code>---
-----
-***
-*****</code></pre><p>示例：（效果都一样）</p>
-<hr>
-<hr>
-<hr>
-<hr>
-<h2 id="5、图片"><a href="#5、图片" class="headerlink" title="5、图片"></a>5、图片</h2><pre><code>![图片文字]（图片地址 &quot;图片标题&quot;)</code></pre><p>图片标题是可选的，用双引号包括。</p>
-<p>示例：</p>
-<p><img src="http://www.tonyyao.top/img/avatar.jpg" alt="个人头像" title="图片标题"></p>
-<h2 id="6、超链接"><a href="#6、超链接" class="headerlink" title="6、超链接"></a>6、超链接</h2><pre><code>[超链接名字]（超链接地址 &quot;超链接title&quot;)
-&lt;a href=&quot;超链接地址&quot; target=&quot;_blank&quot;&gt;超链接名&lt;/a&gt;</code></pre><p><a href="http://www.tonyyao.top" title="Tony个人博客" target="_blank" rel="noopener">Tony个人博客</a></p>
-<p><a href="http://www.baidu.com" target="_blank">百度</a></p>
-<h2 id="7、列表"><a href="#7、列表" class="headerlink" title="7、列表"></a>7、列表</h2><p><strong>同级无序列表：</strong></p>
-<pre><code>- 无序列表
-+ 无序列表
-* 无序列表</code></pre><ul>
-<li>无序列表</li>
-</ul>
-<ul>
-<li>无序列表</li>
-</ul>
-<ul>
-<li>无序列表</li>
-</ul>
-<p><strong>同级有序列表：</strong></p>
-<pre><code>1. 有序列表
-2. 有序列表
-3. 有序列表</code></pre><ol>
-<li>有序列表</li>
-<li>有序列表</li>
-<li>有序列表</li>
-</ol>
-<p><strong>多级无序列表：</strong></p>
-<pre><code>- 一级无序列表
-   + 二级无序列表
-   - 二级无序列表
-   * 二级无序列表
-        + 三级无序列表
-- 一级无序列表
-   * 二级无序列表</code></pre><ul>
-<li>一级无序列表<ul>
-<li>二级无序列表</li>
-</ul>
-<ul>
-<li>二级无序列表</li>
-</ul>
-<ul>
-<li>二级无序列表<ul>
-<li>三级无序列表</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>一级无序列表<ul>
-<li>二级无序列表</li>
-</ul>
-</li>
-</ul>
-<p><strong>多级有序无序列表：</strong></p>
-<pre><code>1. 一级有序列表
-   + 二级无序列表
-   - 二级无序列表
-   * 二级无序列表
-2. 一级有序列表
-   1. 二级有序列表
-   2. 二级有序列表
-   3. 三级有序列表</code></pre><ol>
-<li>一级有序列表<ul>
-<li>二级无序列表</li>
-</ul>
-<ul>
-<li>二级无序列表</li>
-</ul>
-<ul>
-<li>二级无序列表</li>
-</ul>
-</li>
-<li>一级有序列表<ol>
-<li>二级有序列表</li>
-<li>二级有序列表</li>
-<li>三级有序列表</li>
-</ol>
-</li>
-</ol>
-<h2 id="8、表格"><a href="#8、表格" class="headerlink" title="8、表格"></a>8、表格</h2><pre><code>表头|表头|表头
----|:--:|---:
-内容|内容|内容
-内容|内容|内容
-
-第二行分割表头和内容。
-- 有一个就行，为了对齐，多加了几个
-文字默认居左
--两边加：表示文字居中
--右边加：表示文字居右
-注：原生的语法两边都要用 | 包起来。此处省略</code></pre><p>示例：</p>
-<table>
-<thead>
-<tr>
-<th>表头</th>
-<th align="center">表头</th>
-<th align="right">表头</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>内容</td>
-<td align="center">内容</td>
-<td align="right">内容</td>
-</tr>
-<tr>
-<td>内容</td>
-<td align="center">内容</td>
-<td align="right">内容</td>
-</tr>
-</tbody></table>
-<h2 id="9、代码"><a href="#9、代码" class="headerlink" title="9、代码"></a>9、代码</h2><pre><code>`代码内容`
-
-    代码内容
-    代码内容（一个缩进，或者四个空格）</code></pre><p><img src="/img/hexo_2_2.png" alt="代码块" title="代码块"></p>
-<p>示例：（第二种格式需要加括号防止转义，使用时去掉括号,这个符号是Esc键下面的键）</p>
-<p><code>代码内容</code></p>
-<pre><code>代码内容
-代码内容</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">代码内容</span><br><span class="line">代码内容</span><br></pre></td></tr></table></figure>
-
-<h2 id="10、引用"><a href="#10、引用" class="headerlink" title="10、引用"></a>10、引用</h2><pre><code>&gt;引用文字</code></pre><p>示例：</p>
-<blockquote>
-<p>引用文字</p>
-</blockquote>
-<h2 id="11、流程图"><a href="#11、流程图" class="headerlink" title="11、流程图"></a>11、流程图</h2><pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure></code></pre><p>hexo默认不支持流程图，需要执行命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-filter-flowchart</span><br></pre></td></tr></table></figure>
-
-<p>示例:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
-
-<p>以上就是Markdown常用语法，多熟悉语法才能体会到它的便捷。</p>
-<h2 id="本文参考"><a href="#本文参考" class="headerlink" title="本文参考"></a>本文参考</h2><blockquote>
-<p><a href="https://www.jianshu.com/p/191d1e21f7ed" title="Markdown基本语法" target="_blank" rel="noopener">Markdown基本语法</a></p>
-</blockquote>
-<blockquote>
-<p><a href="http://www.markdown.cn" title="Markdown中文文档" target="_blank" rel="noopener">Markdown中文文档</a></p>
-</blockquote>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/09/hexo-Markdown-grammar/" data-id="cjz8qcvn60001mkcyd7uiw0j6" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-tesseract" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/02/tesseract/" class="article-date">
-  <time datetime="2018-04-02T14:08:49.000Z" itemprop="datePublished">2018-04-02</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/学习记录/">学习记录</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/02/tesseract/">利用tesseract训练数据集来识别图片文本</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>由于最近项目需要识别图片文字，我就去了解了Tesseract-OCR这个由Google维护的开源OCR引擎和其对应的Java接口Tess4j（Tesseract for java）。<br>缓更。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/02/tesseract/" data-id="cjz8qcvnd0006mkcy7iy45l5b" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tesseract/">tesseract</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hexo-1" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/02/hexo-1/" class="article-date">
-  <time datetime="2018-04-02T12:50:55.000Z" itemprop="datePublished">2018-04-02</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/教程/">教程</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/02/hexo-1/">Hexo系列（一）搭建Hexo博客</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-<p>附上官方中文文档：<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a></p>
-<h2 id="基本环境"><a href="#基本环境" class="headerlink" title="基本环境"></a>基本环境</h2><p>建立一个基于Hexo博客框架需要有以下环境（没有的话自行查看官方文档的安装教程）:</p>
-<ul>
-<li><p>Git</p>
-</li>
-<li><p>Node.js</p>
-</li>
-<li><p>GitHub帐号</p>
-</li>
-</ul>
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在你喜欢的目录文件夹下，右键后菜单中有个”Git Bash Here”选项，点击打开终端输入以下命令</p>
-<pre><code>$ npm install -g hexo</code></pre><p>等安装后，输入</p>
-<pre><code>$ hexo init</code></pre><p>安装依赖包：</p>
-<pre><code>$ npm install</code></pre><p>现在可以输入hexo的常用命令来看看hexo初步模样</p>
-<pre><code>$ hexo g //generate 生成静态文件的命令
-$ hexo s //server 启动并运行在本地服务器的命令</code></pre><p>然后访问<a href="localhost:4000" target="_blank" rel="noopener">localhost:4000</a>就成功看到Hexo了。<br>但现在这个博客只是在你的本地上运行，要想部署在网络上需要用到GitHub。</p>
-<h2 id="部署Hexo到Github上——配置文件"><a href="#部署Hexo到Github上——配置文件" class="headerlink" title="部署Hexo到Github上——配置文件"></a>部署Hexo到Github上——配置文件</h2><p>在Github中创建一个仓库（即项目）</p>
-<p><img src="/img/hexo_1_1.png" alt="建立仓库"></p>
-<p><strong>（注意：仓库名字必须是你的Github账户名字.github.io）</strong></p>
-<p>然后用<a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener">Notopad++</a>（一个很强大很强大很强大的文本编辑软件）打开hexo根目录下的_config.yml文件（最好先备份一个）<br>拉到文件最下面，找到deploy节点，配置你hexo博客部署的网站。</p>
-<pre><code>deploy:
-  type: git
-  repo:
-      github: git@github.com:TonyLoveCoding/TonyLoveCoding.github.io.git,master</code></pre><p>请注意以下几点：</p>
-<ul>
-<li><p><strong>配置时把这段代码的TonyLoveCoding换成你自己的Github账号名称。</strong></p>
-</li>
-<li><p><strong>Hexo的配置文件中所有冒号后面必须紧跟着一个空格。</strong></p>
-</li>
-<li><p><strong>对于新版本的Hexo而言，配置文件中每行的缩进是区别节点等级的标识，不要随意输入tab符号。比如depoly前面的-号就代表它有两个子节点type和repo，repo又有子节点github等等。</strong><br><img src="/img/hexo_1_2.png" alt="配置"></p>
-</li>
-</ul>
-<h2 id="部署Hexo到Github上——配置SSH"><a href="#部署Hexo到Github上——配置SSH" class="headerlink" title="部署Hexo到Github上——配置SSH"></a>部署Hexo到Github上——配置SSH</h2><p>GitBash输入指令：</p>
-<pre><code>ls -al ~/.ssh</code></pre><p>如果你是Github老用户应该会存在SSH文件，如果没有就继续</p>
-<pre><code>ssh-keygen -t rsa -C &quot;765534395@qq.com&quot;</code></pre><p>记得换成你Github的绑定邮箱，遇到输入时直接回车就行。然后以下命令：</p>
-<pre><code>ssh-agent -s
-ssh-add ~/.ssh/id_rsa</code></pre><p>如果出错，试试</p>
-<pre><code>eval `ssh-agent -s`
-ssh-add</code></pre><p>成功了后，在C:/Users/你的用户名称/.ssh目录下就应该能看到id_rsa.pub了<br><img src="/img/hexo_1_3.png" alt="SSH"><br>用Notepad++打开并复制里面全部内容。到GitHub中Setting中进行如下操作：<br><img src="/img/hexo_1_4.png" alt="填写SSH"><br>这样就完成了配置SSH，接着测试一下SSH</p>
-<pre><code>ssh -T git@github.com</code></pre><p>有输入的话就yes。现在让我们开始部署到GitHub上。先安装hexo-deployer-git模块</p>
-<pre><code>npm install hexo-deployer-git --save</code></pre><p>然后开始部署：</p>
-<pre><code>hexo g //generate 生成静态文件
-hexo d //deploy 部署到配置文件中指定的地点</code></pre><p>现在就可以访问你的博客了，地址是：你的GitHub名称.github.io</p>
-<h2 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h2><pre><code>hexo new &quot;test_new_artcle&quot;</code></pre><p>然后在\hexo\source_posts下就有了test_new_artcle.md文件了。<br>由于Hexo推荐Markdown来写文章，我们最好下载<a href="http://markdownpad.com/download.html" target="_blank" rel="noopener">Markdownpad</a>来方便编写文章。<br><img src="/img/hexo_1_5.png" alt="markdownpad"><br>左边是我们的markdown编写区，右边则是实时的效果展示区。<br>关于markdown的语法我以后有空再写篇文章介绍下。<br>编写你的文章后，还是老命令：</p>
-<pre><code>hexo g     //编译生成文件
-hexo s    //本地预览
-hexo d    //同步文件到Github</code></pre><p>就这样，你已经能完成在你的博客上写文章让其他人来观看了。</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>如果你看腻了Hexo的默认主题，可以去<a href="https://hexo.io/themes/" target="_blank" rel="noopener">官方的主题网页</a>中寻找你喜欢的主题，然后学习如何改进UI和样式效果，就能打造真正意义上的独立博客了。</p>
-<p>当然，hexo并不止这些内容，记得多去官方文档看看，有很多特性等你去发掘。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/02/hexo-1/" data-id="cjz8qcvnb0004mkcyz21mah6a" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-blog-desciption" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/02/blog-desciption/" class="article-date">
-  <time datetime="2018-04-02T12:22:56.000Z" itemprop="datePublished">2018-04-02</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/随笔/">随笔</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/02/blog-desciption/">关于本站</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>这个博客是用来记录我在学习过程中的经验收获和错误总结，为了方便自己以后查询也方便其他访客学习交流。尽量做到每周一两更吧。</p>
-<hr>
-<h1 id="建立博客的初衷"><a href="#建立博客的初衷" class="headerlink" title="建立博客的初衷"></a>建立博客的初衷</h1><p>以后学习的时候一直没有总结的习惯，也曾想过用CSDN、博客园等等来写博文，但感觉广告太多加上个人太懒的原因便不了了之，所以一直以来的资料都是直接收藏在浏览器中。<br>一个偶然的机会看到<a href="http://tengj.top/" target="_blank" rel="noopener">嘟嘟独立博客</a>后就萌发着手建立Hexo博客的想法，便开始搭建本博客，很感谢这位博主的教程。</p>
-<hr>
-<h1 id="博客进展"><a href="#博客进展" class="headerlink" title="博客进展"></a>博客进展</h1><pre><code>1）（已完成）Hexo搭建
-
-2）（已完成）使用并优化Jacman主题
-
-3）（进行中）让博客录入到百度和谷歌搜索引擎
-
-4）（已完成）利用swiftype添加博客站内引擎
-
-5）（已完成）加入访客统计工具CSZZ
-
-6）（已完成）实现国内部署在Coding, 国外部署在GitHub
-
-7）（已完成）为博客弄一个简单明了的域名（tonyao = Tony Yao）
-
-8) （进行中）添加第三方插件作为博客的评论系统（畅言或Gitalk）
-
-9) 其他……</code></pre><hr>
-<h1 id="博客展望"><a href="#博客展望" class="headerlink" title="博客展望"></a>博客展望</h1><p>暂时没什么想法，尽量保证博文的质量吧，有空倒腾一下公众号什么的。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/02/blog-desciption/" data-id="cjz8qcvn00000mkcyjvvjtuhs" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/">blog</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
