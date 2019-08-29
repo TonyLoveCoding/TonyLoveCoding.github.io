@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Tony个人博客</title>
   
   
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Tony Yao</name>
     
   </author>
   
@@ -73,15 +73,15 @@
     <link href="http://yoursite.com/2018/04/02/tesseract/"/>
     <id>http://yoursite.com/2018/04/02/tesseract/</id>
     <published>2018-04-02T14:08:49.000Z</published>
-    <updated>2019-08-08T17:32:53.547Z</updated>
+    <updated>2019-08-29T15:22:37.818Z</updated>
     
-    <content type="html"><![CDATA[<p>由于最近项目需要识别图片文字，我就去了解了Tesseract-OCR这个由Google维护的开源OCR引擎和其对应的Java接口Tess4j（Tesseract for java）。<br>缓更。</p>]]></content>
+    <content type="html"><![CDATA[<p>由于最近项目需要识别图片文字，我就去了解了Tesseract-OCR这个由Google维护的开源OCR引擎和其对应的Java接口Tess4j（Tesseract for java）。<br>缓更。TESTTEST</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;由于最近项目需要识别图片文字，我就去了解了Tesseract-OCR这个由Google维护的开源OCR引擎和其对应的Java接口Tess4j（Tesseract for java）。&lt;br&gt;缓更。&lt;/p&gt;
+        &lt;p&gt;由于最近项目需要识别图片文字，我就去了解了Tesseract-OCR这个由Google维护的开源OCR引擎和其对应的Java接口Tess4j（Tesseract for java）。&lt;br&gt;缓更。TESTTEST&lt;/p&gt;
 
       
     
